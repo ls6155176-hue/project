@@ -1,0 +1,124 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nice HTML Table</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        table {
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #0f0f0f;
+            color: white;
+        }
+
+        th, td {
+              padding: 12px 15px;
+            text-align: center;
+        }
+
+        th {
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover {
+            background-color: #e6f7ff;
+            cursor: pointer;
+        }
+
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1 ><center>Student Marks Table</center></h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>101</td>
+            <td>Lakshya </td>
+            <td>B.Tech</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Harry</td>
+            <td>B.Tech</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>shivam</td>
+            <td>B.Tech</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>jasveer</td>
+            <td>B.Tech</td>
+            <td>92</td>
+        </tr>
+    </tbody>
+</table>
+<center><img src="lakshya.jpg" class="img-fluid" alt="...">
+</center>
+
+
+<center><form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</center>
+</body>
+</html>
